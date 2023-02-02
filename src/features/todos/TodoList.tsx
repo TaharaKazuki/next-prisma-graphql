@@ -5,6 +5,8 @@ import { faTrash, faUpload } from '@fortawesome/free-solid-svg-icons'
 import toast, { Toaster } from 'react-hot-toast'
 import type { Param } from '../../api/todosApi'
 
+import useSWR from 'swr'
+
 export const TodoList: FC = () => {
   const [newTodo, setNewTodo] = useState<string>('')
 

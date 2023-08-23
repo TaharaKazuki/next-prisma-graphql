@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-unresolved
-import '@/styles/global.css'
+import '@/styles/globals.css'
 
 import type { AppProps } from 'next/app'
 
